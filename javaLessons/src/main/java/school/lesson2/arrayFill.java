@@ -6,7 +6,6 @@ public class arrayFill {
     public static void main(String[] args) {
         int[] array = new int[100];
         fillArray(array);
-
         System.out.println("Filled array: ");
         for (int num : array) {
             System.out.print(num + " ");

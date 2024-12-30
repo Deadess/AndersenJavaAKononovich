@@ -12,7 +12,6 @@ public class isLeapYear {
             return;
         }
         int year = scanner.nextInt();
-
         System.out.println(isALeapYear(year));
     }
 

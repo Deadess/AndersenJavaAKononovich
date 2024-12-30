@@ -10,7 +10,6 @@ public class initialValueAndLen {
             return;
         }
         int len = scanner.nextInt();
-
         System.out.print("Enter initialValue: ");
         if (!scanner.hasNextInt()) {
             System.out.println("U can enter only number-values");

@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class arrayMatrix {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter matrix size: ");
         if (!scanner.hasNextInt()) {
             System.out.println("U can enter only number-values");

@@ -5,17 +5,14 @@ import java.util.Scanner;
 public class stringXTimes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter a string: ");
         String str = scanner.nextLine();
-
         System.out.print("Enter x-multiplier: ");
         if (!scanner.hasNextInt()) {
             System.out.println("U can enter only number-values");
             return;
         }
         int times = scanner.nextInt();
-
         printStringMultipleTimes(str, times);
     }
 

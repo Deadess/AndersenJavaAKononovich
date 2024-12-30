@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class arrayIndexSwap {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         int[] array = new int[10];
         System.out.println("Enter 10 digits (0 or 1):");
         for (int i = 0; i < array.length; i++) {
@@ -19,9 +18,7 @@ public class arrayIndexSwap {
                 return;
             }
         }
-
         invertArray(array);
-
         System.out.println("Inverse array: ");
         for (int num : array) {
             System.out.print(num + " ");

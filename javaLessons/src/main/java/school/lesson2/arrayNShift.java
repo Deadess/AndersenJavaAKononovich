@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class arrayNShift {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter array's size: ");
         if (!scanner.hasNextInt()) {
             System.out.println("U can enter only number-values");
